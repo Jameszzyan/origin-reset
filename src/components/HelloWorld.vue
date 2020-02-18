@@ -35,6 +35,10 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  destroyed(){
+    console.log('des');
+    
   }
 }
 </script>
